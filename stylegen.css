@@ -1,0 +1,47 @@
+/* title */ 
+nav.bg-light {
+    border-radius: 17pt;    
+}
+
+/* nav bar */
+
+td.col, p {
+    /* table cell text, core name & description */
+    font-size: 1em; 
+    color: black; 
+}
+
+a.nav-item {
+    font-size: 1.35em; 
+}
+
+/* categories */ 
+div.col {
+  padding: 10pt; 
+}
+
+img.icon {
+    /* background image but didn't use background tag */ 
+    height: auto; 
+    width: 100%; 
+    border-radius: 17%; 
+}
+
+div.centered {
+    /* label, centering text */ 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}    
+
+h2 {
+    /* h2 subcategory: non title */ 
+    text-align: center; 
+}
+
+/* text pages */ 
+p.category {
+    /* table pages, side display */ 
+    transform: rotate(270deg) translateX(-100%); 
+}
