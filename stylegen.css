@@ -27,6 +27,12 @@ img.icon {
     border-radius: 17%; 
 }
 
+img.demo-image {
+    /* image display for exercises */
+    height: auto; 
+    width: 80%; 
+}
+
 div.centered {
     /* label, centering text */ 
     position: absolute; 
